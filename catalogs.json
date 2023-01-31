@@ -15,7 +15,11 @@
     "use_db_config": "hscv3.json"
   },
   "caom" : {
-    "name": "CAOM"
+    "name": "CAOM",
     "max_radius": 0.2,
+    "query": "exec dbo.spCAOMConeSearch ?, ?, ?",
+    "query_response_view": "dbo.ObsPointing",
+    "schema_url": "https://vao.stsci.edu/caomtap/tapservice.aspx",
+    "use_db_config": "caom-ops.json"
   }
 }
