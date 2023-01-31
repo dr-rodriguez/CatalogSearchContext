@@ -22,12 +22,12 @@
     "schema_url": "https://vao.stsci.edu/caomtap/tapservice.aspx",
     "use_db_config": "caom-ops.json"
   },
-  "gaia": {
-    "name": "GAIA",
+  "gaiadr3": {
+    "name": "GAIADR3",
     "max_radius": 0.2,
     "query": "exec dbo.spGAIAConeSearch ?, ?, ?",
     "query_response_view": "dbo.gaia_source",
-    "schema_url": "https://vao.stsci.edu/caomtap/tapservice.aspx",
-    "use_db_config": "gaia.json"
+    "schema_url": "https://vao.stsci.edu/gaiadr3/tapservice.aspx",
+    "use_db_config": "gaiadr3.json"
   }
 }
