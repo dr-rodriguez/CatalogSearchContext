@@ -27,7 +27,7 @@
     "max_radius": 0.2,
     "query": "exec dbo.spGAIAConeSearch ?, ?, ?",
     "query_response_view": "dbo.gaia_source",
-    "schema_url": "https://vao.stsci.edu/gaiadr3/tapservice.aspx",
+    "schema_url": "",
     "use_db_config": "gaiadr3.json"
   }
 }
