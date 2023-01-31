@@ -13,4 +13,9 @@
     "query_response_view": "dbo.SumMagAper2CatView",
     "schema_url": "https://vao.stsci.edu/hsctap/tapservice.aspx",
     "use_db_config": "hscv3.json"
+  },
+  "caom" : {
+    "name": "CAOM"
+    "max_radius": 0.2,
+  }
 }
