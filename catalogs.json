@@ -1,0 +1,9 @@
+{
+  "tic": {
+    "name": "TIC",
+    "max_radius": 1.0,
+    "query": "exec dbo.spConeSearch ?, ?, ?, 'TESSTIC'",
+    "query_response_view": "dbo.CatalogRecord",
+    "schema_url": "https://vao.stsci.edu/tic/tapservice.aspx"
+  }
+}
