@@ -1,0 +1,2 @@
+# CatalogSearchContext
+Catalog Search Context
